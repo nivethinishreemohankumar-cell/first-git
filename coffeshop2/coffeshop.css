@@ -1,0 +1,113 @@
+.head img{
+    height:60px; 
+}
+.head{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    /* gap: 200px; */
+}
+h1{
+    font-size:xx-large;
+    font-style:oblique ;
+    text-align: center;
+    color:white;
+    /* display: inline; */
+}
+body{
+    background-image: url(/capachino.webp);
+}
+.list1{
+    color:aliceblue;
+    list-style-type: none;
+    display: flex;
+    
+}
+nav ul li{
+    padding:50px 100px;
+    font-size: x-large;
+}
+nav ul li:hover {
+    background-color: rgba(240, 248, 255, 0.3);
+    color: black;
+   
+    border: 1px solid rgba(240, 248, 255, 0.5);
+}
+nav a{
+    text-decoration: none;  
+    color:aliceblue;
+}
+nav ul li a:hover{
+   color:black;
+}
+#about{
+    color:white;
+}
+video{
+    height: 400px;
+    width: 100%;
+}
+#contact{
+    color:white;
+    text-align: center;
+    font-size: x-large;
+    margin-top: 50px;
+}
+#contact label{
+    font-size: large;
+    margin-right: 10px;
+    display: inline-block;
+    text-align: left;
+    width: 100px;
+}
+#contact select{
+    font-size: large;
+    padding: 5px;
+    width: 200px;
+    margin-left: 20px;
+}    
+#menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px
+}
+
+#menu-items {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+#menu h3{
+    text-align: center;
+    color: white;
+}
+#menu h4{
+    text-align: center;
+    color:white
+}
+footer h3{
+    text-align: center;
+    color:aliceblue
+}
+.footer-content{
+    display: block;
+    text-align: center;
+}
+.footer-content p{
+    margin: 0 12px;
+    color: aliceblue;
+    font-size: large;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+.footer-content .fa-solid,
+.footer-content .fa-brands,
+.footer-content i{
+    color: white;
+    font-size: 1.25rem;
+}
+#menu-items p{
+    color: white;
+    font-size: larger;
+    text-align: center;
+}
